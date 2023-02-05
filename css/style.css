@@ -203,3 +203,74 @@ body {
     margin: 5px 0;
     font-size: 1rem;
 }
+
+/* services section */
+
+.services-container {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.services-container .services-h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: gray;
+    margin-top: 2%;
+    font-size: 1.3rem;
+    color: #13C5DD;
+}
+
+.services-container .services-h1 {
+    font-size: 3.5rem;
+    margin-top: 2%;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #1D2A4D;
+}
+
+.service-facilities {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-facilities .service-facility {
+    height: 50vh;
+    padding: 20px;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px #77777780, -3px -3px 10px #77777780;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-facility i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services-icon {
+    font-size: 3rem;
+    height: 150px;
+    width: 150px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #29b7ca;
+}
+
+.service-facility-h2 {
+    color: #1D2A4D;
+    margin: 3% 0;
+}
+
+.service-facility-p {
+    margin-top: 5%;
+}
