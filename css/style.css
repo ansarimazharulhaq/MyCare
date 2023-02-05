@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #13C5DD;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar .nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #13C5DD;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.nav-items li a:hover {
+    background: #a3dae152;
+    color: #13C5DD;
+    box-shadow: 3px 3px 10px #8db9bf71, -3px -3px 10px #a4c4c85e;
+    border-radius: 20px;
+}
+
+.nav-items li:hover {
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+.nav-items li:hover:active {
+    transform: scale(1.01);
+}
+
+/* Home section */
+
+.home-container {
+    position: relative;
+}
+
+.home-container .welcome-msg {
+    position: absolute;
+    color: #13C5DD;
+    left: 3%;
+    top: 15%;
+    z-index: 1;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-decoration: underline;
+}
+
+.home-container .slogan {
+    position: absolute;
+    color: #fff;
+    left: 3%;
+    top: 25%;
+    text-transform: capitalize;
+    font-size: 5rem;
+    width: 60%;
+    z-index: 1;
+}
+
+.home-container .hero-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.btn-grp .find-doctor-btn{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    height: 7vh;
+    width: 15vw;
+    z-index: 1;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn-grp .appointment-btn {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    height: 7vh;
+    width: 15vw;
+    z-index: 1;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* about section */
+
+.about-container {
+    display: flex;
+}
+
+.about-container .about-img {
+    padding: 50px 100px;
+}
+
+.about-container .about-img img{
+    width: 35vw;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.about-info {
+    position: relative;
+    width: 100%;
+    right: 5%;
+}
+
+.about-info .about-h2 {
+    color: #13C5DD;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: gray;
+    position: absolute;
+    top: 7.5%;
+}
+
+.about-info .about-h1 {
+    position: absolute;
+    top: 15%;
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 3.2rem;
+    color: #1D2A4D;
+}
+
+.about-info p {
+    position: absolute;
+    top: 40%;
+    font-size: 1.2rem;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.about-facilities {
+    position: absolute;
+    top: 67%;
+    display: flex;
+    color: #13C5DD;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: left;
+}
+
+.facility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b5e8ef4b;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.icon-height {
+    font-size: 3rem;
+}
+
+.facility-h2 {
+    color: #000;
+    margin: 5px 0;
+    font-size: 1rem;
+}
